@@ -29,7 +29,7 @@ nav li{
 	left: 20px;
 	opacity: 0;
 	transform: rotate(100deg);
-	transition: transform 1s linear, opacity 1s linear;
+	transition: all 1s linear;
 }
 
 .main{
@@ -125,7 +125,7 @@ nav li:hover .nav_hero_logo{
 		transition: all 1s ease;
 		bottom: -65px;
 		transform: rotate(0deg);
-		transition: transform 1s linear, opacity 1s linear;
+		transition: all 1s linear;
 }
 
 
